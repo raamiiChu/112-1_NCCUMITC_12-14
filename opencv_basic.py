@@ -3,7 +3,7 @@ import cv2
 
 # 開啟圖片
 img = cv2.imread("./images/kekw.jpg")  # cv2.IMREAD_COLOR (BGR)
-img = cv2.imread("./images/kekw.jpg", cv2.IMREAD_GRAYSCALE)  # cv2.IMREAD_GRAYSCALE (灰階)
+# img = cv2.imread("./images/kekw.jpg", cv2.IMREAD_GRAYSCALE)  # cv2.IMREAD_GRAYSCALE (灰階)
 
 print(img)
 print(f"width:  {len(img[0])}") 
