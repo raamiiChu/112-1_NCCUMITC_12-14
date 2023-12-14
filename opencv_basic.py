@@ -6,6 +6,8 @@ img = cv2.imread("./images/kekw.jpg")  # cv2.IMREAD_COLOR (BGR)
 # img = cv2.imread("./images/kekw.jpg", cv2.IMREAD_GRAYSCALE)  # cv2.IMREAD_GRAYSCALE (灰階)
 
 print(img)
+print(f"width:  {len(img)}") 
+print(f"height: {len(img[0])}")
 
 # cv2.imwrite("./images/new_kekw.jpg", img)  # 儲存圖片
 
