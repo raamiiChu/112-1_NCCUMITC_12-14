@@ -1,9 +1,9 @@
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)  # 鏡頭的編號，通常都從 0 開始
 
 while True:
-    success, img = cap.read()
+    success, img = cap.read()  # 讀取影片的每一幀
 
     if not success:
         break
